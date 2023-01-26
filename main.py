@@ -26,17 +26,52 @@ if options == 1:
 
 	if answer  == 'c':
 		correct += 1
-		print()
-		print()
+	print()
+	print()
 
 
 	print("Question 2. :- s='Python programer', the output of s[-8:-2] = ?")
 	print("a) mmargo					b) programmer					c) remmgorp					d) ogramm")
 	answer = input("Enter your answer (a/b/c/d) :- ").lower()
 
-	if answer  == 'd'
+	if answer  == 'd':
 		correct += 1
-		print()
-		print()
+	print()
+	print()
+
+	print("Question 3. :- Statement to do nothing ?")
+	print("a) continue					b) pass					c) stop					d) break")
+	answer = input("Enter your answer (a/b/c/d) :- ").lower()
+
+	if answer  == 'b':
+		correct += 1
+	print()
+	print()
 
 
+
+	print("Question 4. :- x = [i**2 for i in range(1,10) if i % 2 == 0] what is output ?")
+	print("a) [2, 4, 6, 8, 10]					b) [0, 4, 16, 36, 64]					c) [4, 16, 36, 64]					d) [0, 4, 16, 36]")
+	answer = input("Enter your answer (a/b/c/d) :- ").lower()
+
+	if answer == 'c':
+		correct += 1
+	prin()
+	print()
+
+
+	print("Question 5. :- What is the output of the program ?")
+	print("if not 0:")
+	print("				print('statement - 1')")
+	prin("else")
+	print("				prin('statement - 2')")
+	print("a) statement-1					b) statement-2					c) error					d) none")
+	answer = input("Enter your answer (a/b/c/d) :- ").lower()
+
+	if answer == 'a':
+		correct += 1
+	prin()
+	print()
+
+else:
+	exit()
