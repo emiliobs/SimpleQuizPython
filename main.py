@@ -2,7 +2,7 @@
 
 name = input("Please, Enter your Full  Name: - ")
 print(f'Hello "{name.upper()}" , Welcome to Python Quiz......')
-print("---------------------------------------------------------"
+print("---------------------------------------------------------")
 
 while True:
 	total_question = 5
