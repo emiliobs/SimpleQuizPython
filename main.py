@@ -1,4 +1,7 @@
 # Simple Quiz In Python
+from time import time
+
+star_time  = time()
 
 name = input("Please, Enter your Full  Name:- ")
 print(f'Hello "{name.upper()}" , Welcome to Python Quiz......')
@@ -71,8 +74,12 @@ while True:
 				print()
 				print()
 
+
+				end_time = time()
+				total_time = end_time - star_time
+				
 				print("<===============================>")
-				print(f"{name.upper()} You score {correct} out of {total_question}")
+				print(f"{name.upper()} You score {correct} out of {total_question}.... in {total_time} seconds.!")
 				print("=================================")
 				print()
 				
